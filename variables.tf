@@ -15,13 +15,6 @@ variable "dns_records" {
       fieldtype = "A"
       ttl       = "300"
       target    = "130.61.181.137"
-    },
-    test2_kris_ovh = {
-      zone      = "kris.ovh"
-      subdomain = "test2"
-      fieldtype = "A"
-      ttl       = "300"
-      target    = "130.61.181.137"
     }
   }
 }
