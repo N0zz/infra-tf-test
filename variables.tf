@@ -1,3 +1,7 @@
+variable = environment {
+    type = string
+    default = "test"
+}
 variable "uptimerobot_alert_email" {
     type = string
     default = "disabled"
