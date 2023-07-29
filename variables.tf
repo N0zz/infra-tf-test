@@ -1,5 +1,6 @@
 variable "uptimerobot_alert_email" {
     type = string
+    default = null
 }
 variable "dns_records" {
     type = map
