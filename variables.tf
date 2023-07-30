@@ -15,6 +15,13 @@ variable "dns_records" {
       fieldtype = "A"
       ttl       = "300"
       target    = "130.61.181.137"
+    },
+    test_temida_czestochowa_pl = {
+      zone      = "temida-czestochowa.pl"
+      subdomain = "test"
+      fieldtype = "A"
+      ttl       = "300"
+      target    = "130.61.181.137"
     }
   }
 }
