@@ -1,5 +1,5 @@
 variable "infra_environment" {
-  type    = string
+  type    = bool
   default = "test"
 }
 variable "uptimerobot_alert_email" {
