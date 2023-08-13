@@ -7,5 +7,5 @@ module "uptimerobot" {
   infra_environment           = var.infra_environment
   dns_records                 = var.dns_records
   uptimerobot_custom_monitors = var.custom_monitors
-  uptimerobot_alert_email     = var.uptimerobot_alert_email
+  uptimerobot_alert_email      = var.uptimerobot_alert_email
 }
