@@ -13,14 +13,14 @@ variable "dns_records" {
       zone      = "kris.ovh"
       subdomain = "test"
       fieldtype = "A"
-      ttl       = "300"
+      ttl       = "3600"
       target    = "130.61.181.137"
     },
     test_temida_czestochowa_pl = {
       zone      = "temida-czestochowa.pl"
       subdomain = "test"
       fieldtype = "A"
-      ttl       = "300"
+      ttl       = "3600"
       target    = "130.61.181.137"
     }
   }

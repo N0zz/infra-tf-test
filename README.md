@@ -26,7 +26,7 @@ For full project documentation refer to [Infra Docs](https://github.com/N0zz/inf
 | Name | Description | Type | Default | Required |
 |------|-------------|------|---------|:--------:|
 | <a name="input_custom_monitors"></a> [custom\_monitors](#input\_custom\_monitors) | n/a | `map(any)` | <pre>{<br>  "ssh_test_kris_ovh": {<br>    "name": "SSH test.kris.ovh",<br>    "port": "22",<br>    "sub_type": "custom",<br>    "type": "port",<br>    "url": "test.kris.ovh"<br>  }<br>}</pre> | no |
-| <a name="input_dns_records"></a> [dns\_records](#input\_dns\_records) | n/a | `map(any)` | <pre>{<br>  "test_kris_ovh": {<br>    "fieldtype": "A",<br>    "subdomain": "test",<br>    "target": "130.61.181.137",<br>    "ttl": "300",<br>    "zone": "kris.ovh"<br>  },<br>  "test_temida_czestochowa_pl": {<br>    "fieldtype": "A",<br>    "subdomain": "test",<br>    "target": "130.61.181.137",<br>    "ttl": "300",<br>    "zone": "temida-czestochowa.pl"<br>  }<br>}</pre> | no |
+| <a name="input_dns_records"></a> [dns\_records](#input\_dns\_records) | n/a | `map(any)` | <pre>{<br>  "test_kris_ovh": {<br>    "fieldtype": "A",<br>    "subdomain": "test",<br>    "target": "130.61.181.137",<br>    "ttl": "3600",<br>    "zone": "kris.ovh"<br>  },<br>  "test_temida_czestochowa_pl": {<br>    "fieldtype": "A",<br>    "subdomain": "test",<br>    "target": "130.61.181.137",<br>    "ttl": "3600",<br>    "zone": "temida-czestochowa.pl"<br>  }<br>}</pre> | no |
 | <a name="input_infra_environment"></a> [infra\_environment](#input\_infra\_environment) | n/a | `string` | `"test"` | no |
 | <a name="input_uptimerobot_alert_email"></a> [uptimerobot\_alert\_email](#input\_uptimerobot\_alert\_email) | n/a | `string` | `"disabled"` | no |
 <!-- END_TF_DOCS -->
