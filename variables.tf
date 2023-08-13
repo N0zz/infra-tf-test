@@ -3,7 +3,7 @@ variable "infra_environment" {
   default = "test"
 }
 variable "uptimerobot_alert_email" {
-  type    = bool
+  type    = string
   default = "disabled"
 }
 variable "dns_records" {
